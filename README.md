@@ -2,13 +2,20 @@
 
 This repo contains some everyday tasks in a Python Data Engineer's day job.
 
-The idea is to demonstrate how everyday tasks are performed by the different levels of data engineering and a little bit about the tasks expected from each level.
+## Task Descriptions
 
-Below is a summary of each task:
+### [Task 1: Ingest Purchase Order data](./Task%201/) (Basic): 
+In this task, you will learn how to ingest Purchase Order data from a JSON file into a database table. You will practice data extraction, transformation, and loading (ETL) by ensuring that the data is formatted correctly, following the pattern: **PartNumber:Qty:Price | PartNumber2:Qty:Price** if more than one. This task is designed to build your foundational skills in data engineering.
+### [Task 2: Hiring Data Ingestion and Analysis](./Task%202/) (Intermediate): 
+In this task, you will work with CSV data to ingest and analyze hiring information. You will save the data into a database table and create chart visualizations from the database. This task provides an opportunity to practice more advanced ETL techniques and data visualization.
+### Task 3: NYC Yellow Taxy Trip Data Ingestion and Analysis (Advanced): 
+This advanced task involves building a robust data pipeline using Apache Spark and Apache Airflow. You will ingest data from multiple parquet files, orchestrated by an Airflow DAG. Additionally, you will create chart visualizations to analyze the NYC Yellow Taxi trip data. This task is ideal for those looking to expand their skills in big data processing and workflow orchestration.
 
-- [Task 1: Ingest a JSON file into a Database](./Task%201/) (Junior)
-- Task 2: Ingest a CSV file and Create Visualizations (Mid-level)
-- Task 3: Data pipeline with Airflow and Spark (Sênior)
+## Additional Resources
+
+If you're new to any of the concepts or tools used in these tasks, you may find these resources helpful:
+  - [Spark Documentation](https://spark.apache.org/docs/latest/)
+  - [Airflow Documentation](https://airflow.apache.org/docs/stable/index.html)
 
 ## Prerequisites
 
@@ -33,3 +40,11 @@ $ .\myenv\Scripts\activate #Windows
 ```
 
 With these prerequisites in place, you should good to go in replicating the notebooks.
+
+## Contributing
+
+We welcome contributions! If you have additional tasks or improvements to existing ones, please submit a pull request.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
