@@ -34,9 +34,9 @@ $ pip install pandas psycopg2 matplotlib
 If you prefer a clean environment, consider creating a Python Virtual Environment to isolate the project dependencies:
 
 ```bash
-$ python -m venv myenv
-$ source myenv/bin/activate # Linux/Mac
-$ .\myenv\Scripts\activate #Windows
+$ python -m venv venv
+$ source venv/bin/activate # Linux/Mac
+$ .\venv\Scripts\activate # Windows
 ```
 
 With these prerequisites in place, you should good to go in replicating the notebooks.
